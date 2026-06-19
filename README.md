@@ -1,26 +1,31 @@
-# Voice Sentiment Analyzer (File Upload Version)
+---
+title: Voice Sentiment Analyzer
+emoji: 🎙️
+colorFrom: indigo
+colorTo: purple
+sdk: streamlit
+sdk_version: "1.38.0"
+python_version: "3.10"
+app_file: app.py
+pinned: false
+---
 
-A beautiful Streamlit app that transcribes audio files and performs detailed sentiment + emotion analysis.
+# Voice Sentiment Analyzer
 
-## Features
-- Upload audio files (mp3, wav, m4a, etc.)
-- High-quality transcription using Distil-Whisper
-- Sentiment analysis (positive/negative/neutral) with confidence
-- Multi-emotion breakdown
+A beautiful **Streamlit** app that transcribes audio files and performs detailed **sentiment + emotion analysis** with rich visualizations.
+
+### Features
+- Upload audio files (wav, mp3, m4a, etc.)
+- High-quality transcription using **Distil-Whisper**
+- Multi-label **Emotion Detection** + Sentiment Analysis
 - Interactive sentiment timeline chart
-- Download transcript
-- Optimized for Hugging Face Spaces and Streamlit Cloud
+- Emotion distribution bar chart
+- Download full transcript
+- Optimized for Hugging Face Spaces
 
-## How to Run Locally
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+### How to Use
+1. Upload an audio file
+2. Wait for transcription and analysis
+3. Explore insights and download results
 
-## Deployment
-- **Hugging Face Spaces**: Just connect this repo (very easy)
-- **Streamlit Community Cloud**: Connect GitHub repo
-
-First run will download large models (~2GB).
-
-Perfect for analyzing meetings, interviews, podcasts, customer calls, etc.
+Perfect for analyzing meetings, interviews, podcasts, customer calls, therapy sessions, etc.
