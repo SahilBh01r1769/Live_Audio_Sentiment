@@ -6,3 +6,4 @@ transformers
 plotly
 pandas
 soundfile  # for potential audio handling
+torchvision
