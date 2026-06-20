@@ -44,7 +44,7 @@ The app checks for ffmpeg on startup and will show a clear error if it's missing
 
 ### Setup
 ```bash
-git clone https://github.com/<your-username>/voice-sentiment-analyzer.git
+https://github.com/SahilBh01r1769/Live_Audio_Sentiment.git
 cd voice-sentiment-analyzer
 
 python -m venv venv
@@ -161,7 +161,4 @@ Three models are downloaded and cached on first run (~1-2GB total). Subsequent
 runs are fast since `@st.cache_resource` keeps them in memory and Hugging Face
 caches the weights on disk.
 
----
 
-## License
-MIT — see [LICENSE](LICENSE).
